@@ -145,16 +145,30 @@ hr {
 	border: solid 2px #dddddd;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 971px) {
   
         
        
-       #wrapper { width: 100%;
+       #wrapper { max-width: 760px;
                     padding: 20px;}
         .Main {width: 100%}
         .sidebar {width: 100%}            
-        footer {width: 100%}       
+		footer {width: 100%} 
+		overflow: auto ;
+		ul { padding: 0px;} 
+		.linkimg{style:center}    
 	 }
+@media screen and (max-width: 835px){
+	#wrapper { max-width: 600px;
+		padding: 20px;}
+.Main {width: 100%}
+.sidebar {width: 100%}            
+footer {width: 100%} 
+overflow: auto ;
+header {max-width: 400px;} 
+.Name{overflow:auto}
+.linkimg{align-content: middle;}
 
+}
 
 
